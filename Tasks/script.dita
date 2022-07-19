@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="Untitled">
+    <title>Processing files with .bat script</title>
+    <shortdesc>This document explains how to use a .bat script to process backlog transactions Karaf
+        incidents.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_nvg_xl2_g5b">Ensure that the files to be processed are stored in the
+                (<xref href="../Overview/sourcePath.dita">source path</xref>).</prereq>
+        <context>
+            <p>To automatically process transactions in the backlog using the .bat script, follow
+                the steps below:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>On the Karaf server, navigate to the path C:\KARAF_TROUBLESHOOTING.</cmd>
+            </step>
+            <step>
+                <cmd>Double-click on <b>move_karaf_files_script.bat</b> script file, provide the
+                        <xref href="../Overview/sourcePath.dita">source path</xref> and the <xref
+                        href="../Overview/destinationPath.dita">destination path</xref> when
+                    prompted and press enter.</cmd>
+                <stepxmp><xref href="../Images/scriptPaths.jpg" format="jpg"><image
+                            href="../Images/scriptPaths.jpg" id="image_kmw_fm2_g5b"
+                    /></xref></stepxmp>
+            </step>
+        </steps>
+        <result id="result_dym_mkd_g5b">The transactions will automatically move from source path to
+            destination path one at a time, with a five second delay between each transaction.  </result>
+    </taskbody>
+    <related-links>
+        <link href="command.dita"/>
+        <link href="../Overview/sourcePath.dita"/>
+        <link href="../Overview/destinationPath.dita"/>
+    </related-links>
+</task>

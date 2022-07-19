@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="scenario">
+    <title>How to process backlog transactions in Karaf incidents</title>
+    <body>
+        <p>Apache Karaf incidents often create massive backlogs of unprocessed transactions that
+            arrived in the queue when the agent was not operational. After the blockage has already
+            been removed and the incident has been resolved, multiple transactions need to be
+            processed to clear the backlog. This should be done one by one in order not to overload
+            the application with too many files at a time, but with hundreds of transactions, moving
+            the files from one folder to another by hand is not an efficient way to do it.</p>
+        <p>There are two methods to automate this task and process the transactions one at a time,
+            with a five second delay between each transaction. Follow the links below to learn more
+            about each method:</p>
+        <p><ul id="ul_cjd_5s2_g5b">
+                <li><xref href="../Tasks/script.dita"/></li>
+                <li><xref href="../Tasks/command.dita"/></li>
+            </ul></p>
+    </body>
+    <related-links>
+        <link href="../Tasks/script.dita"/>
+        <link href="../Tasks/command.dita"/>
+    </related-links>
+</topic>

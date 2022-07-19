@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Untitled">
+    <title>Destination Path</title>
+    <shortdesc>This document describes the role of the destination path in processing backlog
+        transactions in Karaf incidents.</shortdesc>
+    <conbody>
+        <p>The <b>destination path</b> is the full path to the processing folder. This is usually
+            where the blockage happened during the incident. All files in this folder will be
+            processed by the Apache Karaf agent. </p>
+        <example id="example_stt_1p2_g5b">For example:
+            <filepath>C:\TEST\folder2</filepath></example>
+    </conbody>
+    <related-links>
+        <link href="sourcePath.dita"/>
+        <link href="scenario.dita"/>
+    </related-links>
+</concept>

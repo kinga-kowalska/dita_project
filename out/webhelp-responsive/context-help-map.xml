@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="scenario" path="Overview/scenario.html"/>
+   <appContext helpID="Untitled" path="Tasks/script.html"/>
+   <appContext helpID="processing_files_with_powershell_command"
+               path="Tasks/command.html"/>
+   <appContext helpID="sourcePath" path="Overview/sourcePath.html"/>
+   <appContext helpID="Untitled" path="Overview/destinationPath.html"/>
+</map>

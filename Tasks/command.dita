@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="processing_files_with_powershell_command">
+    <title>Processing files with PowerShell command</title>
+    <shortdesc>This document explains how to use a PowerShell command to process backlog
+        transactions in Karaf incidents.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_hjm_tj2_g5b">Ensure that the files to be processed are stored in the
+                (<xref href="../Overview/sourcePath.dita">source path</xref>).</prereq>
+        <context>
+            <p>To automatically process transactions in the backlog using the PowerShell command,
+                follow the steps below:</p>
+        </context>
+        <steps>
+            <stepsection/>
+            <step>
+                <cmd>On the Karaf server, open the <b>cmd window</b> and run <b>powershell</b>.
+                </cmd>
+            </step>
+            <step>
+                <cmd>Run the following command with the <b><xref href="../Overview/sourcePath.dita"
+                            >source path</xref></b> and <b><xref
+                            href="../Overview/destinationPath.dita">destination path</xref></b>
+                    provided:</cmd>
+                <info>
+                    <p>Get-ChildItem -Path "<b>SOURCE_PATH</b>" | Foreach-Object {</p>
+                    <p>Move-Item -Path $_.PSPath -Destination "<b>DESTINATION_PATH</b>"</p>
+                    <p> Start-Sleep -s 5</p>
+                    <p> }</p>
+                </info>
+                <stepxmp><p>For example:</p><p><xref href="../Images/commandExample.jpg" format="jpg"><image
+                            href="../Images/commandExample.jpg" id="image_u1t_tn2_g5b"/></xref></p><note id="note_igy_vn2_g5b"><p>In case of errors like in the example below, check for unnecessary
+                            spaces that were included while pasting the command and remove
+                            them.</p><xref href="../Images/commandError.jpg" format="jpg"><image
+                                href="../Images/commandError.jpg" id="image_i5j_c42_g5b"
+                        /></xref></note></stepxmp>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Processing files in Apache Karaf backlog</title>
+    <topicref href="Overview/scenario.dita">
+        <topicref href="Tasks/script.dita"/>
+        <topicref href="Tasks/command.dita"/>
+        <topicref href="Overview/sourcePath.dita"/>
+        <topicref href="Overview/destinationPath.dita"/>
+    </topicref>
+</map>

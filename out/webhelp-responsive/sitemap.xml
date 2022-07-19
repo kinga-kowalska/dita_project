@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>Overview/scenario.html</loc>
+      <lastmod>2022-07-19T09:28:19Z</lastmod>
+   </url>
+   <url>
+      <loc>Tasks/script.html</loc>
+      <lastmod>2022-07-19T09:28:19Z</lastmod>
+   </url>
+   <url>
+      <loc>Tasks/command.html</loc>
+      <lastmod>2022-07-19T09:28:19Z</lastmod>
+   </url>
+   <url>
+      <loc>Overview/sourcePath.html</loc>
+      <lastmod>2022-07-19T09:28:19Z</lastmod>
+   </url>
+   <url>
+      <loc>Overview/destinationPath.html</loc>
+      <lastmod>2022-07-19T09:28:19Z</lastmod>
+   </url>
+</urlset>

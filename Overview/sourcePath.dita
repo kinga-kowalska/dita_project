@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="sourcePath">
+    <title>Source Path</title>
+    <shortdesc>This document describes the role of the source path in processing backlog
+        transactions in Karaf incidents.</shortdesc>
+    <conbody>
+        <p>The <b>source path</b> is the full path to the folder where the transaction files to be
+            processed are stored. Ideally, this should be a temporary folder created for the purpose
+            of clearing the backlog. <note id="note_tns_pm2_g5b">Using an incident number as the
+                folder name might be a good idea to keep things simple and organized.</note></p>
+        <example id="example_g1w_dp2_g5b">For example:
+            <filepath>C:\TEST\folder1</filepath></example>
+    </conbody>
+    <related-links>
+        <link href="destinationPath.dita"/>
+        <link href="scenario.dita"/>
+    </related-links>
+</concept>
